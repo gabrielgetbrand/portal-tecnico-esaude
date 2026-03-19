@@ -4,7 +4,7 @@ Esta página contém a referência técnica obrigatória para a integração de 
 
 ---
 
-## 📚 Guia de Implementação (IG)
+## Guia de Implementação (IG)
 
 O *Implementation Guide* (IG) é o documento que define como os recursos FHIR devem ser estruturados especificamente para o cenário da Secretaria Municipal da Saúde de São Paulo.
 
@@ -14,7 +14,7 @@ O *Implementation Guide* (IG) é o documento que define como os recursos FHIR de
 
 ---
 
-## 📋 Perfis e Recursos (Profiles)
+## Perfis e Recursos (Profiles)
 
 Cada mensagem enviada deve estar em conformidade com o seu respectivo *StructureDefinition*. Abaixo estão os principais perfis utilizados:
 
@@ -29,7 +29,7 @@ Cada mensagem enviada deve estar em conformidade com o seu respectivo *Structure
 
 ---
 
-## 🔢 Terminologias e Padrões de Dados
+## Terminologias e Padrões de Dados
 
 Para garantir a interoperabilidade, o e-saúdeSP exige o uso de terminologias padronizadas nacional e municipalmente:
 
@@ -43,7 +43,7 @@ Para garantir a interoperabilidade, o e-saúdeSP exige o uso de terminologias pa
 
 ---
 
-## 🔐 Segurança e Autenticação
+## Segurança e Autenticação
 
 A segurança da informação é prioridade e segue as diretrizes da LGPD.
 
@@ -55,7 +55,7 @@ A segurança da informação é prioridade e segue as diretrizes da LGPD.
 
 ---
 
-## ⚠️ Padrão de Erros (OperationOutcome)
+## Padrão de Erros (OperationOutcome)
 
 Sempre que uma transação falhar, o servidor responderá com um recurso do tipo `OperationOutcome` detalhando o erro.
 
@@ -65,10 +65,10 @@ Sempre que uma transação falhar, o servidor responderá com um recurso do tipo
 
 ---
 
-## 📏 Convenções Técnicas Adicionais
+## Convenções Técnicas Adicionais
 
 * **Fuso Horário:** Todas as datas devem seguir o padrão ISO 8601 com fuso horário (Ex: `YYYY-MM-DDThh:mm:ss-03:00`).
 * **Limite de Payload:** O tamanho máximo aceito por requisição é de **10MB**.
 * **Identificadores de Transação:** O uso do cabeçalho `X-Correlation-ID` é obrigatório para rastreabilidade de logs.
 
-> 💡 **Dica de Implementador:** Antes de iniciar o desenvolvimento, baixe os **Exemplos de Mensagens JSON** na nossa [Central de Downloads](downloads.md).
+>  **Dica de Implementador:** Antes de iniciar o desenvolvimento, baixe os **Exemplos de Mensagens JSON** na nossa [Central de Downloads](downloads.md).
