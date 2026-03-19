@@ -12,13 +12,15 @@ O acesso ao Sandbox é restrito e exige o fornecimento de credenciais de autenti
 
 ### Opção 1: Via Formulário (Recomendado)
 Para agilizar o provisionamento das suas chaves, preencha o formulário oficial de solicitação:
+
 * 📝 **[Acessar Formulário de Solicitação de Sandbox]([ADICIONAR_LINK_DO_GOOGLE_FORMS])**
     * *Prazo de resposta: Até 48h úteis.*
 
 ### Opção 2: Via E-mail Institucional
 Encaminhe sua solicitação para a nossa equipe de interoperabilidade:
-* 📧 **E-mail:** [ADICIONAR_SEU_E-MAIL_AQUI]
-* **Assunto:** Solicitação de Acesso ao Sandbox - [Nome da sua Empresa]
+
+* 📧 **E-mail:** [ADICIONAR_E-MAIL_AQUI]
+* **Assunto:** Solicitação de Acesso ao Sandbox - Nome da sua Empresa
 
 ---
 
