@@ -8,4 +8,4 @@ Este portal concentra a especificação técnica baseada em **HL7 FHIR R4** para
 * **CDEM-RAC:** Conjunto de Dados Expandido Municipal.
 * **RISAH:** Registro de Internação e Saúde Associada à Hospitalização.
 
-*(Em breve, os manuais completos e links para download serão disponibilizados aqui)*
+Utilize o menu lateral para acessar os manuais técnicos e os guias de implementação.
