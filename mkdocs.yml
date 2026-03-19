@@ -1,0 +1,5 @@
+site_name: Portal Técnico CDEM-RAC e RISAH
+site_description: Documentação técnica para implementação e homologação no e-saúdeSP.
+theme:
+  name: material
+  language: pt-BR
