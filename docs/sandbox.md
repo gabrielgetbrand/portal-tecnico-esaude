@@ -6,7 +6,7 @@ Este ambiente utiliza dados sintéticos (fictícios) e cenários padronizados pa
 
 ---
 
-## 🚀 Como obter acesso
+## Como obter acesso
 
 O acesso ao Sandbox é restrito e exige o fornecimento de credenciais de autenticação (*Client ID* e *Client Secret*).
 
@@ -22,7 +22,7 @@ Encaminhe sua solicitação para a nossa equipe de interoperabilidade:
 
 ---
 
-## 🔐 Regras e Limites de Uso
+## Regras e Limites de Uso
 
 Para garantir a estabilidade do ambiente para todos os usuários, aplicam-se as seguintes regras:
 
@@ -33,7 +33,7 @@ Para garantir a estabilidade do ambiente para todos os usuários, aplicam-se as 
 
 ---
 
-## 🧪 Cenários de Referência e Testes
+## Cenários de Referência e Testes
 
 O Sandbox está configurado para aceitar os cenários descritos nos manuais técnicos:
 
@@ -49,9 +49,9 @@ Antes de solicitar a homologação, valide se o seu sistema executa com sucesso:
 
 ---
 
-## 🚦 Status do Ambiente
+## Status do Ambiente
 
 * **Status Atual:** ✅ Operacional
 * **Janelas de Manutenção:** Terças-feiras, das 22h às 02h (Pode haver instabilidade).
 
-> 💡 **Nota:** Se você encontrar comportamentos inesperados ou erros 500 recorrentes, consulte nossa página de [Suporte e Comunicação](suporte.md) para verificar se há incidentes em aberto.
+> **Nota:** Se você encontrar comportamentos inesperados ou erros 500 recorrentes, consulte nossa página de [Suporte e Comunicação](suporte.md) para verificar se há incidentes em aberto.
