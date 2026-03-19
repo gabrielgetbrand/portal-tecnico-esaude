@@ -110,3 +110,98 @@ Conjunto de problemas/diagnósticos avaliados durante o atendimento.
 | 1 | [1..N] | Problemas / diagnósticos avaliados | | Informações sobre a condição de saúde, lesão, deficiência.  |
 | 2 | [1..1] | Código do diagnóstico/Problema | Texto codificado | Código do diagnóstico/Problema detectado (ex: Z47; M52.3)  |
 | 2 | [0..1] | Estado de resolução do problema | Texto codificado | Ativo, Recorrente, Recidiva, Inativo, Remissão, Resolvido  |
+
+## XI – Alergias e reações adversas (quando houver)
+Registro de alergias e/ou reações adversas, com caracterização mínima.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [1..N] | Alergia e/ou reação adversa | | Obrigatório informar ausência de alergia ou 'desconhece alergia'. |
+| 2 | [1..1] | Categoria do agente causador | Texto codificado: | Alimento, Medicação, Fator Externo/Ambiental, Biológico. |
+| 2 | [1..1] | Agente/substância específica | Texto Codificado | CBARA, CATMAT, Lista vacinas PNI. |
+| 2 | [0..1] | Criticidade | Texto codificado: | Alta, Baixa, Indeterminada. |
+
+## XII – Procedimentos realizados
+Registro de procedimentos realizados no atendimento, com código de terminologia e status/resultados associados quando aplicável.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..N] | Procedimento(s) realizado(s) ou solicitado(s) | | |
+| 2 | [1..1] | Terminologia que descreve o procedimento | Texto codificado | SIGTAP, CBHPM ou TUSS. |
+| 3 | [1..1] | Nome do procedimento | Texto codificado | Ação de saúde realizada no indivíduo (numero TUSS, ex.). |
+| 3 | [1..1] | Status do procedimento | Texto codificado: | Pré-procedimento; Em andamento; Não realizado; Realizado; Suspenso; Cancelado; Completado; Desconhecido; Entrada com erro. |
+
+## XIII – Encaminhamentos e procedimentos solicitados
+Encaminhamentos e procedimentos solicitados no contexto da regulação assistencial, em conformidade com o MIRA vigente.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..N] | Encaminhamento/procedimento solicitado | – | Registro de encaminhamento e/ou procedimento solicitado, com rastreabilidade ao MIRA. |
+| 2 | [1..1] | Código do procedimento/encaminhamento | Texto codificado | Código conforme terminologia oficial vigente (ex.: SIGTAP) e/ou catálogo MIRA. |
+| 2 | [0..1] | Identificador do pedido no MIRA | Identificador estruturado | Identificador do registro de solicitação no MIRA (quando houver). |
+
+## XIV – Prescrição de medicamentos
+Prescrição de medicamentos no atendimento, estruturada conforme o modelo REPM vigente.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0...1] | Prescrição no atendimento | - | - |
+| 2 | [0..1] | Medicamentos prescritos no atendimento (não estruturado) | - | - |
+| 3 | [1..1] | Descrição da prescrição | Texto livre | Descrição da prescrição de forma livre, podendo ter vários medicamentos no mesmo texto. |
+| 2 | [0..1] | Medicamentos prescritos no atendimento (estruturado) | - | - |
+| 3 | [1..1] | Terminologia que descreve o medicamento | Texto codificado | Code System CS BRTerminologiaMedicamentos. |
+| 4 | [1..N] | Medicamento | Texto codificado | Indica o nome do princípio ativo, concentração, unidade de medida e forma farmacêutica. |
+| 5 | [1..1] | Via de administração | Texto codificado | Code System - Via de administração. |
+
+## XV – Fornecimento de medicamentos durante o atendimento
+Registro de fornecimento/dispensação de medicamentos durante o atendimento, quando aplicável.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..N] | Fornecimento/dispensação de medicamento | – | Registro em conformidade com o REDFM vigente. |
+| 2 | [1..1] | Medicamento fornecido | Texto codificado | Identificação do medicamento fornecido (p.ex. DCB/ANVISA, OBS). |
+| 2 | [1..1] | Quantidade fornecida | Número | Quantidade fornecida/dispensada no atendimento. |
+
+## XVI – Atestados médicos ou odontológicos (quando aplicável)
+Atestados emitidos no contexto do atendimento, conforme modelo vigente.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..N] | Atestado Médico/Odontológico | | |
+| 2 | [1..1] | Identificação do indivíduo | | Identificador do indivíduo que recebe o Atestado. |
+| 2 | [1..1] | Data do inicio do Afastamento | Texto codificado Iso 8601 | Data de inicio do afastamento das atividades. |
+| 2 | [1..1] | Tempo de afastamento (dias) | Caracteres numéricos | Número de dias que o paciente deve permanecer afastado. |
+
+## XVII – Resultados de testes diagnósticos
+Resultados de testes diagnósticos realizados no contexto do atendimento, conforme o modelo vigente.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..N] | Resultado de teste diagnóstico | – | Registro de resultado de teste diagnóstico (teste rápido ou laboratório remoto). |
+| 2 | [1..1] | Identificador do teste/exame | Identificador estruturado | Identificador do exame/teste no sistema de origem. |
+| 2 | [1..1] | Código do teste/exame (LOINC) | Texto codificado | Código preferencialmente em LOINC. |
+| 2 | [1..1] | Resultado | Valor | Resultado do teste (quantitativo com unidade, qualitativo codificado ou texto). |
+
+## XVIII – Recomendações de conduta, seguimento, instruções e plano de cuidado
+Recomendações de conduta e plano de cuidado fornecidos ao indivíduo, preferencialmente codificados em terminologias oficiais.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..1] | Plano de cuidados, instruções e recomendações | – | Bloco de recomendações na conclusão do atendimento. |
+| 2 | [1..1] | Descrição do plano de cuidados | Texto livre | Descrição do plano de cuidados, instruções e recomendações. |
+
+## XIX – Outras informações complementares relevantes para continuidade do cuidado
+Informações complementares que auxiliem a continuidade do cuidado e a coordenação da atenção.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [0..1] | Outras informações complementares | Texto livre | Campo para informações adicionais relevantes não contempladas nos demais incisos (ex.: contexto social, barreiras de acesso). |
+
+## XX – Assinatura eletrônica do profissional responsável pelo atendimento
+Assinatura eletrônica do profissional responsável, para garantir autoria, integridade e não repúdio.
+
+| Nível | Ocorrência | Seção/Item | Tipo de Dados | Conceito/Observações |
+|---|---|---|---|---|
+| 1 | [1..1] | Assinatura eletrônica | – | Bloco de assinatura eletrônica do profissional responsável. |
+| 2 | [1..1] | Identificador do profissional assinante | Identificador estruturado | Referência ao profissional responsável. |
+| 2 | [1..1] | Assinatura (artefato criptográfico) | String/Base64 ou JWS | Assinatura eletr
