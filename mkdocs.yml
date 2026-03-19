@@ -1,18 +1,31 @@
-site_name: Portal Técnico CDEM-RAC e RISAH
-site_description: Documentação técnica para implementação e homologação no e-saúdeSP.
+site_name: Portal Técnico e-saúdeSP
+site_description: Documentação técnica para implementação e homologação (CDEM-RAC e RISAH).
+
 theme:
   name: material
   language: pt-BR
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
 
 nav:
   - Início: index.md
-  - Base Normativa: base-normativa.md
-  - Comece por aqui: comece-por-aqui.md
-  - CDEM-RAC: cdem-rac.md
-  - RISAH: risah.md
-  - Especificação Técnica (FHIR): especificacao.md
-  - Integração: integracao.md
-  - Sandbox: sandbox.md
-  - Homologação: homologacao.md
-  - Downloads: downloads.md
-  - Suporte: suporte.md
+  - Guia de Introdução:
+      - Comece por aqui: comece-por-aqui.md
+      - Base Normativa: base-normativa.md
+  - Modelos de Informação:
+      - CDEM-RAC (Ambulatorial): cdem-rac.md
+      - RISAH (Hospitalar): risah.md
+  - Desenvolvimento Técnico:
+      - Especificação FHIR: especificacao.md
+      - Guia de Integração: integracao.md
+      - Sandbox: sandbox.md
+  - Governança e Apoio:
+      - Homologação: homologacao.md
+      - Downloads: downloads.md
+      - Suporte: suporte.md
