@@ -2,7 +2,7 @@
 
 O objetivo desta página é padronizar a comunicação de mudanças e reduzir o tempo de resolução de incidentes e dúvidas técnicas.
 
-## 🛠️ Service Desk (Apoio Técnico)
+## Service Desk (Apoio Técnico)
 
 Para relatar incidentes ou solicitar apoio na integração, utilize nosso canal oficial de chamados:
 
@@ -16,7 +16,7 @@ Para garantir a agilidade na análise, categorize o assunto corretamente (**CDEM
 
 ---
 
-## 📅 Calendário e Comunicados
+## Calendário e Comunicados
 
 Fique atento às janelas de manutenção e ao cronograma de atualizações do ecossistema e-saúdeSP.
 
@@ -25,7 +25,7 @@ Fique atento às janelas de manutenção e ao cronograma de atualizações do ec
 
 ---
 
-## ❓ Perguntas Frequentes (FAQ)
+## Perguntas Frequentes (FAQ)
 
 *(Em construção: Base de conhecimento com foco em erros comuns de validação FHIR e dúvidas de mapeamento)*
 
