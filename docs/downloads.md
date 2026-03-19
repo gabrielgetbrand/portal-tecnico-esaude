@@ -2,7 +2,7 @@
 
 Esta seção centraliza todos os arquivos necessários para a implementação técnica das integrações com o e-saúdeSP, garantindo versionamento e rastreabilidade dos artefatos.
 
-## 📦 Pacotes Disponíveis (Release Atual)
+## Pacotes Disponíveis (Release Atual)
 
 ### Versão 0.1 (Documento de Trabalho)
 **Data de publicação:** 02/03/2026
@@ -21,7 +21,7 @@ Esta seção centraliza todos os arquivos necessários para a implementação t�
 
 ---
 
-## ⚖️ Base Normativa (PDFs)
+## Base Normativa (PDFs)
 Documentação legal que ampara a obrigatoriedade do envio de dados:
 
 * 📄 [Portaria SMS nº 117/2026 (CDEM-RAC)](https://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-da-saude-sms-117-de-24-de-fevereiro-de-2026/detalhe)
@@ -29,7 +29,7 @@ Documentação legal que ampara a obrigatoriedade do envio de dados:
 
 ---
 
-## 🛡️ Política de Integridade
+## Política de Integridade
 Todos os pacotes oficiais acompanham hashes de verificação (**checksums**) para garantir a integridade do download. Caso o hash do arquivo baixado não coincida com o informado na tabela de release, entre em contato com o nosso [Suporte](suporte.md).
 
-> 💡 **Dica:** Sempre limpe o cache do seu navegador ao baixar uma nova versão para garantir que está visualizando o arquivo mais recente.
+> **Dica:** Sempre limpe o cache do seu navegador ao baixar uma nova versão para garantir que está visualizando o arquivo mais recente.
