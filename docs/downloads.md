@@ -10,9 +10,7 @@ Esta seção centraliza todos os arquivos necessários para a implementação t�
 **Arquivos Obrigatórios:**
 
 * 📦 `Pacote IG FHIR + Perfis + Value Sets` *(Link para download em breve)*
-* 
 * 🧪 `Coleções de Testes (Postman/Insomnia)` *(Link para download em breve)*
-* 
 * 📄 `Notas de Release e Compatibilidade` *(Link para download em breve)* 
 
 **Artefatos Auxiliares:**
