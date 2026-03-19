@@ -8,11 +8,15 @@ Esta seção centraliza todos os arquivos necessários para a implementação t�
 *Data de publicação: 02/03/2026*
 
 **Arquivos Obrigatórios:**
-* 📦 `Pacote IG FHIR + Perfis + Value Sets` *(Link para download em breve)* 
-* 🧪 `Coleções de Testes (Postman/Insomnia)` *(Link para download em breve)* 
+
+* 📦 `Pacote IG FHIR + Perfis + Value Sets` *(Link para download em breve)*
+* 
+* 🧪 `Coleções de Testes (Postman/Insomnia)` *(Link para download em breve)*
+* 
 * 📄 `Notas de Release e Compatibilidade` *(Link para download em breve)* 
 
 **Artefatos Auxiliares:**
+
 * ⚙️ `Scripts de validação local e exemplos de pipelines` *(Em breve)* 
 
 ## Política de Integridade
