@@ -45,10 +45,10 @@ O Sandbox está configurado para aceitar os cenários descritos nos manuais téc
 ### Checklist de "Smoke Tests" (Validação Inicial):
 Antes de solicitar a homologação, valide se o seu sistema executa com sucesso:
 
-[ ] **Autenticação:** Obtenção do Token JWT via OAuth2.
-[ ] **Validação Estrutural:** Envio de um Resource *Patient* sem erros de Schema.
-[ ] **Escrita de Dados:** Recebimento do status *HTTP 201 Created* ao enviar um atendimento.
-[ ] **Consulta:** Recuperação de um recurso previamente enviado via ID.
+- [ ] **Autenticação:** Obtenção do Token JWT via OAuth2.
+- [ ] **Validação Estrutural:** Envio de um Resource *Patient* sem erros de Schema.
+- [ ] **Escrita de Dados:** Recebimento do status *HTTP 201 Created* ao enviar um atendimento.
+- [ ] **Consulta:** Recuperação de um recurso previamente enviado via ID.
 
 ---
 
