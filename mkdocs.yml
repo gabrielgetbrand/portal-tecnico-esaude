@@ -1,4 +1,4 @@
-site_name: Portal Técnico e-saúdeSP
+site_name: Portal Técnico e-saúdeSP ![Version](https://img.shields.io/badge/versão-1.0.0--beta-green) 
 site_description: Documentação técnica para implementação e homologação (CDEM-RAC e RISAH).
 
 theme:
