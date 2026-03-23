@@ -1,4 +1,4 @@
-# Portal Técnico de Implementação: e-saúdeSP
+# Portal Técnico de Implementação: e-saúdeSP [Version](https://img.shields.io/badge/versão-1.0.0--beta-green)
 
 Bem-vindo ao canal oficial de integração da Secretaria Municipal da Saúde de São Paulo. Este portal é a referência única para fornecedores de software e equipes de TI que realizam a transmissão de dados assistenciais ao município.
 
