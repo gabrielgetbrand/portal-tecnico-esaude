@@ -27,6 +27,7 @@ nav:
   - Modelos de Informação:
       - CDEM-RAC (Ambulatorial): cdem-rac.md
       - RISAH (Hospitalar): risah.md
+      - CMD (Atendimento): cmd.md
   - Desenvolvimento Técnico:
       - Especificação FHIR: especificacao.md
       - Guia de Integração: integracao.md
