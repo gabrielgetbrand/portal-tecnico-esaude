@@ -6,7 +6,7 @@ O objetivo desta página é padronizar a comunicação de mudanças e reduzir o 
 
 Para relatar incidentes ou solicitar apoio na integração, utilize nosso canal oficial de chamados:
 
-* 🔗 **[Abrir Chamado no Service Desk]([ADICIONAR LINK])**
+* 🔗 **[Abrir Chamado no Service Desk]([ADICIONAR LINK]) - Link em breve**
 
 ### Orientações para Abertura de Chamado:
 Para garantir a agilidade na análise, categorize o assunto corretamente (**CDEM-RAC, RISAH, Sandbox ou Produção**) e anexe obrigatoriamente:
