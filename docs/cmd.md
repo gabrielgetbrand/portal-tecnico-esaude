@@ -1,4 +1,4 @@
-# CMD (REST API e Cargas)
+# CMD
 
 Este é o **modelo atual de envio de dados ao repositório** da SMS-SP.
 Nesta seção, você encontra a documentação técnica dos conectores REST-API e manuais de carga referentes ao modelo CMD.
