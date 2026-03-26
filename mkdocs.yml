@@ -25,9 +25,11 @@ nav:
       - Comece por aqui: comece-por-aqui.md
       - Base Normativa: base-normativa.md
   - Modelos de Informação:
-      - CDEM-RAC (Ambulatorial): cdem-rac.md
-      - RISAH (Hospitalar): risah.md
-      - CMD (Atendimento): cmd.md
+      - Atual:
+          - CDEM-RAC (Ambulatorial): cdem-rac.md
+          - RISAH (Hospitalar): risah.md
+      - Em Emplementação:
+          - CMD (Atendimento): cmd.md
   - Desenvolvimento Técnico:
       - Especificação FHIR: especificacao.md
       - Guia de Integração: integracao.md
