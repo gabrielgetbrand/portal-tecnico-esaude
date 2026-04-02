@@ -1,3 +1,13 @@
+---
+title: Início
+description: 
+published: true
+date: 2026-04-02T19:41:56.526Z
+tags: 
+editor: markdown
+dateCreated: 2026-04-02T17:43:34.858Z
+---
+
 # Portal Técnico e-saúdeSP 
 ![Version](https://img.shields.io/badge/versão-1.0.0--beta-green) 
 
