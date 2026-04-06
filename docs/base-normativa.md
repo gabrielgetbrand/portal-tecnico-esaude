@@ -1,3 +1,13 @@
+---
+title: Base Normativa
+description: 
+published: true
+date: 2026-04-06T14:11:55.099Z
+tags: 
+editor: markdown
+dateCreated: 2026-04-02T17:43:06.845Z
+---
+
 # Base Normativa e Governança
 
 As diretrizes para padronização, estruturação e transmissão eletrônica de registros de saúde no município de São Paulo são regidas pelas portarias abaixo. O cumprimento destas normas é requisito obrigatório para a integração ao ecossistema e-saúdeSP.
