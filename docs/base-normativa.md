@@ -2,7 +2,7 @@
 title: Base Normativa
 description: 
 published: true
-date: 2026-04-06T14:11:55.099Z
+date: 2026-04-06T19:27:29.149Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-02T17:43:06.845Z
